@@ -1,7 +1,16 @@
 # party storm
 
 > Updated: 2020-09-20
+
 > Author: YiChun Sung
+
+## Migration
+
+```bash
+
+npx knex migrate:make migration_name -x ts
+
+```
 
 ## Notebook
 

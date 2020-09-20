@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "init-knex": "npx knex init -x ts",
     "dev": "tsc && npm start",
-    "start": "node ./build/main.js"
+    "start": "node ./build/main.js",
+    "migrate": "npx knex migrate:latest"
   },
   "repository": {
     "type": "git",

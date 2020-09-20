@@ -1,0 +1,23 @@
+{
+  "name": "party-storm",
+  "version": "0.1.0",
+  "description": "party",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yichunsung/party-storm.git"
+  },
+  "keywords": [
+    "javascript",
+    "express"
+  ],
+  "author": "YiChun Sung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yichunsung/party-storm/issues"
+  },
+  "homepage": "https://github.com/yichunsung/party-storm#readme"
+}

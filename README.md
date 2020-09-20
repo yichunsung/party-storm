@@ -9,7 +9,7 @@ kenx typescript
 
 ```json
 
-	"dependencies": {
+  "dependencies": {
     "knex": "^0.21.5",
     "mysql": "^2.18.1",
     "typescript": "^4.0.3"

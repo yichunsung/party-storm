@@ -1,10 +1,8 @@
 import app from './config/express.config';
 
-const PORT: number = 8080;
-
-const projectName: string = "Party Storm";
+import { projectName, port } from './config/config';
 
 
-app.listen(PORT, (req, res) => {
-	console.log(`Start in ${PORT} for ${projectName}`);
+app.listen(port, (req, res) => {
+	console.log(`Start in ${port} for ${projectName}`);
 });

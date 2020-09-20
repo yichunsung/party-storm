@@ -12,5 +12,6 @@
     "paths": {
       "*": ["types/*"]
     }
-  }
+  },
+  "exclude": ["**/*.test.ts", "**/migrations", "./knexfile.ts", "node_modules"]
 }
